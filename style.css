@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,500;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    font-family: poppins;
+}
+
+.N {
+    color: rgb(106, 231, 106);
+    font-weight: bolder;
+
+}
+
+.Lowest-background-image {
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: inherit;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -99;
+}
+
+.right-content h1 span {
+    font-weight: bolder;
+    color: red;
+}
+
+.Log-In {
+    font-family: poppins;
+    border: 1px solid black;
+    font-size: 2rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    transition: all 100ms;
+    /* background: linear-gradient(rgb(236, 236, 173),rgb(255, 255, 0)); */
+    /* box-shadow: 0 0 20px 0 rgb(218, 220, 180); */
+}
+
+.Log-In:hover {
+    font-family: poppins;
+    /* border: 2px solid black; */
+    font-size: 2rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    background: linear-gradient(rgb(243, 243, 137), rgb(255, 255, 0));
+    box-shadow: 0 0 15px 0 rgb(228, 240, 15);
+    cursor: pointer;
+}
+
+.JoinCommunity {
+    margin-top: 4rem;
+    font-size: 2rem;
+    background: linear-gradient(rgb(253, 243, 136), yellow);
+    border-radius: 1rem;
+    height: 4rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgb(239, 239, 132);
+    transition: all 100ms;
+
+}
+
+.JoinCommunity:hover {
+    margin-top: 4rem;
+    font-size: 2rem;
+    background: linear-gradient(rgb(253, 243, 136), yellow);
+    border-radius: 1rem;
+    height: 4rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 40px 0 rgb(244, 236, 6);
+    cursor: pointer;
+}
+
+.violet {
+    background:url('./Images/VioletBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+}
+.violet h1{
+    font-size: 10rem;
+}
+.violet h2{
+    font-size: 4rem;
+}
+.violet p{
+    font-size: 3rem;
+}
+
+.footer {
+    background-color: #be5a4b;
+}
+
+.Cards-div {
+    background-color: rgb(241, 237, 237);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards {
+    height: 40rem;
+    width: 35rem;
+    border-radius: 1rem;
+    transition: all 500ms;
+    background-color: white;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+}
+.cards img{
+    height: 85%;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cards .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    user-select: none;
+}
+.cards .btn:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 100%;
+    font-size: 2rem;
+    user-select: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cards:hover {
+
+    box-shadow: 2rem 2rem 4rem 0rem rgb(140, 139, 139);
+    height: 40rem;
+    width: 35rem;
+    border-radius: 1rem;
+    /* cursor: pointer; */
+}
+.redTexture{
+    height: 100%;
+    width: 100%;
+    background:url('./Images/red Texture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.redTexture .bothSide{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.redTexture .right img{
+    height: 80%;
+    width: 100%;
+}
+.redTexture .left{
+    flex-direction: column;
+    padding: 5rem 10rem;
+    color: white;
+}
+.redTexture .left h1{
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+.redTexture .left h2{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+.redTexture .left h3{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.redTexture .left p{
+    font-size: 2rem;
+}
+
+.main {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    z-index: -10;
+}
+
+.main .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -3rem 10rem;
+    height: 100%;
+
+}
+
+.main .content .left-content,
+.right-content {
+    /* border: 2px solid red; */
+    height: 85%;
+    width: 80%;
+}
+
+.main .content .right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    padding: 0rem 8rem;
+}
+
+.main .content .right-content h1 {
+    margin-bottom: 7rem;
+    font-size: 5rem;
+}
+
+.main .content .right-content p {
+    line-height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main .content .left-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 15rem;
+    margin-top: 2rem;
+
+}
+
+.logo {
+    font-size: 4rem;
+    font-family: poppins;
+
+}
+
+.section {
+    width: 100vw;
+    height: 75vh;
+    /* border: 2px solid red; */
+    /* background-color: white; */
+}
+
+/*Layered Images*/
+.left-content img {
+    transition: all 1600ms;
+
+}
+
+.left-content:hover img.First {
+    transform: perspective(1000px) rotateX(50deg) rotateY(30deg) rotateZ(-40deg) translateX(50px) translateY(50px) translateZ(200px);
+}
+
+.left-content:hover img.Second {
+    transform: perspective(1000px) rotateX(50deg) rotateY(30deg) rotateZ(-40deg) translateX(50px) translateY(50px) translateZ(160px);
+}
+
+.left-content:hover img.Third {
+    transform: perspective(1000px) rotateX(50deg) rotateY(30deg) rotateZ(-40deg) translateX(50px) translateY(50px) translateZ(100px);
+}
+
+.left-content:hover img.Fourth {
+    transform: perspective(1000px) rotateX(50deg) rotateY(30deg) rotateZ(-40deg) translateX(50px) translateY(50px) translateZ(60px);
+}
+
+
+
+
+.main .content .left-content img.First {
+
+    position: absolute;
+    z-index: 40;
+    height: 17.5%;
+    /* width: ; */
+    top: 114px;
+    /* bottom: 1px; */
+    /* right: 1px; */
+    /* left: 1px; */
+
+}
+
+.main .content .left-content img.Second {
+
+    position: absolute;
+    height: 87%;
+    z-index: 39;
+    top: 35px;
+    /* width: ; */
+
+    /* bottom: 1px; */
+    /* right: 1px; */
+    /* left: 15px; */
+}
+
+.main .content .left-content img.Third {
+
+    position: absolute;
+    height: 90%;
+    z-index: 38;
+    top: 30px;
+    /* width:80% ; */
+    /* bottom: 1px; */
+    /* right: 15px; */
+    /* left: 1px; */
+
+
+}
+
+.main .content .left-content img.Fourth {
+    z-index: 37;
+    position: absolute;
+    height: 97%;
+    width: 60%;
+    /* top: 1px; */
+    /* bottom: 1px; */
+    /* right: 1px; */
+    /* left: 1px; */
+}
